@@ -11,10 +11,7 @@ export default function Someone() {
   return (
     <main>
       <p>page</p>
-      <Link href="/">EF</Link>
-      <button type="button" onClick={onClick}>
-        {click}
-      </button>
+      <Link href="about/blog">Go to blog </Link>
     </main>
   );
 }
